@@ -256,6 +256,48 @@ footer {
   animation-delay: 0.4s;
 }
 
+.download-section {
+  animation-delay: 0.5s;
+}
+
+/* Download Section */
+.download-section {
+  margin-top: 3rem;
+  text-align: center;
+  animation: fadeIn 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+.download-section p {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.download-icons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.store-badge {
+  display: inline-block;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.store-badge:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.store-badge img {
+  height: 48px;
+  width: auto;
+  display: block;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .hero h1 {
